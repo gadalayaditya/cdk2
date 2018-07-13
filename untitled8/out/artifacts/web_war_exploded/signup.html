@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="./validation.js"> </script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="firsttext">
+this is a sign up page<br>
+password: 5 characters minimum<br>
+name: &nbsp; no numbers<br>
+</div>
+<div id="secondtext">
+<table align="center"><form id="myform" action="Servlet1">
+    <tr>
+        <td>name: </td><td><input type="text" id="name" name="name"/></td><br>
+
+    </tr><tr><td>id:</td><td> <input type="text" id="id" name="id"></td><br>
+
+</tr><tr><td>set password:</td><td><input type="text" id="pass1" name="pass1"></td></tr><br>
+
+    </tr><tr><td>retype password:</td><td><input type="text" id="pass2" name="pass2"></td></tr><br>
+
+<tr><td><input type="checkbox" id="checkBox" onclick="enableDisable(this.checked, 'textBox')" checked="checked" ></td>
+
+    <td>have a phone number</td><br>
+
+</tr><td>phone no:</td><td><input type="number" id="textBox" name="textbox"></td><br><br></tr><br>
+
+    <tr><td colspan="2"><input type="submit" value="Submit for signup" onClick="dovalid()" ></td>><br><br></tr>></form>
+</table>
+</div>
+
+</body>
+</html>

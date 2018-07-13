@@ -1,0 +1,11 @@
+#firsttext {
+    color:red;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+#secondtext {
+    text-align: center;
+    color:green;
+}
